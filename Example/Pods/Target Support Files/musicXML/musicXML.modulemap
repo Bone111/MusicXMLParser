@@ -1,0 +1,6 @@
+framework module musicXML {
+  umbrella header "musicXML-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'musicXML_Example' do
+#  pod 'MBProgressHUD'
+  pod 'musicXML', :path => '../'
+
+  target 'musicXML_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

@@ -1,0 +1,26 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MBProgressHUD (1.0.0)
+  - musicXML (0.0.1):
+    - MBProgressHUD
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - musicXML (from `../`)
+
+EXTERNAL SOURCES:
+  musicXML:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  musicXML: e4f766372f21b24b65f50a108afc599f322349e7
+
+PODFILE CHECKSUM: dd3434aa9e7e8fe028f4eb9bd6769dce869c84ce
+
+COCOAPODS: 1.2.1

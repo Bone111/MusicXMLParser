@@ -1,0 +1,47 @@
+{
+  "name": "musicXML",
+  "version": "0.0.1",
+  "summary": "musicxml for piano to play",
+  "description": "draw music sheet and play sound according to musicXML",
+  "homepage": "https://gitlab.oneitfarm.com/SpecPods/MusicXML",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tanhuiya": "tanhui@corp-ci.com"
+  },
+  "source": {
+    "git": "git@gitlab.oneitfarm.com:SpecPods/MusicXML.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": [
+    "Pod/Classes/**/*",
+    "Pod/musicFramework/**/*.{cpp}"
+  ],
+  "resource_bundles": {
+    "musicXML": [
+      "Pod/Assets/*.xib",
+      "Pod/Assets/*.png",
+      "Pod/Assets/*.dls"
+    ]
+  },
+  "public_header_files": "Pod/Classes/**/*.h",
+  "frameworks": [
+    "UIKit",
+    "MapKit",
+    "AVFoundation",
+    "AudioToolbox",
+    "CoreAudio",
+    "CoreBluetooth"
+  ],
+  "vendored_libraries": "Pod/libraries/*.a",
+  "dependencies": {
+    "MBProgressHUD": [
+
+    ]
+  }
+}
